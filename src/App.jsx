@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import MultiStepBookingForm from "./components/MultiStepBookingForm";
+import MultiStepBookingForm from "./components/BookingForm/MultiStepBookingForm";
 import AdminDashboard from "./AdminDashboard";
 
 function App() {
