@@ -1,0 +1,19 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import MultiStepBookingForm from "./components/MultiStepBookingForm";
+import AdminDashboard from "./AdminDashboard";
+
+function App() {
+  return (
+    <Router>
+      <div>
+        <h1>Booking System</h1>
+        <Routes>
+          <Route path="/" element={<MultiStepBookingForm />} />
+          <Route path="/admin" element={<AdminDashboard />} />
+        </Routes>
+      </div>
+    </Router>
+  );
+}
+
+export default App;
